@@ -5,6 +5,7 @@ import InfoView from './views/InfoView';
 import ScanView from './views/ScanView';
 import SocialView from './views/SocialView';
 import MoreView from './views/MoreView';
+import ProductView from './views/ProductView';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/scan" element={<ScanView />} />
           <Route path="/social" element={<SocialView />} />
           <Route path="/more" element={<MoreView />} />
+          <Route path="/product/:barcode" element={<ProductView />} />
         </Routes>
       </div>
     </Router>
