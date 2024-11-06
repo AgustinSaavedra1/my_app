@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* En tu archivo de estilos global */
+
+/* Estilos para el área de escaneo */
+.drawingBuffer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mejoras para el video */
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Animación de la línea de escaneo */
+@keyframes scan {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-scan {
+  animation: scan 2s linear infinite;
+}
+
+/* Estilo para el área de enfoque */
+.focus-area {
+  position: absolute;
+  border: 2px solid rgba(76, 175, 80, 0.5);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+}
