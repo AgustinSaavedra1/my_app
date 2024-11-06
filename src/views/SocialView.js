@@ -20,7 +20,7 @@ const SocialView = () => {
       description: "Comunidad de reciclaje del edificio",
       memberCount: 45,
       leaderboard: [
-        { name: "Ana García", points: 2500 },
+        { name: "Agustin Saavedra", points: 2500 },
         { name: "Juan Pérez", points: 2200 },
         { name: "María López", points: 2100 }
       ]

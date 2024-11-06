@@ -20,7 +20,7 @@ const LandingPage = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-green-200 to-emerald-300 rounded-full blur-lg opacity-50"></div>
             <div className="relative w-40 h-40 bg-white rounded-full border-4 border-green-400 flex flex-col items-center justify-center shadow-xl">
               <div className="text-yellow-400 text-4xl mb-2">⭐</div>
-              <div className="text-5xl font-bold text-gray-800">250</div>
+              <div className="text-5xl font-bold text-gray-800">2500</div>
               <div className="text-sm text-green-600 mt-1">Eco Puntos</div>
             </div>
           </div>
